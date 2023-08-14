@@ -1,0 +1,190 @@
+body
+{
+    background-color: rgb(30, 32, 43);
+}
+
+  
+  a {
+    text-decoration: none;
+    color: #009ad8;
+  }
+  
+
+  form input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+
+  }
+
+
+  button,form input {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+  }
+  
+
+  .site-header {
+    padding: 50px 0;
+  }
+
+  .site-header .branding .logo,
+  .site-header .branding .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .site-header .branding .logo {
+    margin-right: 10px;
+  }
+  .site-header .branding .site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+  }
+  .site-header .branding .site-description {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+  }
+  
+
+  .main-navigation .menu-toggle {
+    background: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    transition: 0.3s ease;
+    display: none;
+    outline: none;
+  }
+
+  
+  .main-navigation .menu-toggle:hover,
+  .main-navigation .menu-toggle:active {
+    border-color: #009ad8;
+    color: #009ad8;
+  }
+  .main-navigation .menu {
+    list-style: none;
+
+  }
+
+  .main-navigation .menu .menu-item a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+  }
+  .main-navigation .menu .menu-item.current-menu-item a,
+  .main-navigation .menu .menu-item:hover a {
+    border-color: #009ad8;
+    color: #009ad8;
+  }
+  
+
+  
+
+   /* * Footer Styles */
+
+  .site-footer {
+    background: #262936;
+    padding: 50px 0;
+  }
+  .site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+  }
+  .site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+  }
+  .site-footer .social-links a {
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px;
+  }
+  .site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white;
+  }
+
+
+
+  
+  .logo-img
+  {
+      width: 80px;
+      height: 40px;
+  }
+  
+  .small-fs
+  {
+      font-size: 10px;
+  }
+  
+  .fs-6
+  {
+      font-size: 12px;
+  }
+  
+  .app-container
+  {
+      background-image: url(../images/80576.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+  }
+  
+  .bg-main-color
+  {
+      background-color: rgba(30, 32, 43, 0.905);
+  }
+  
+  .bg-sec-color
+  {
+      background-color:#262936d1;
+  }
+  
+  .fs-big
+  {
+      font-size: 84px;
+      font-weight: bolder;
+  }
+  
+  .footer-icons
+  {
+      width: 20px;
+      height: 20px;
+  }
+  
+  .text-light-blue
+  {
+      color:#009ad8;
+  }
+  

@@ -1,0 +1,194 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="site-content">
+        <div class="site-header ">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class='branding' href='/'>
+                    <img src="images/logo@2x.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+
+                <div class="main-navigation ">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu d-flex ">
+                        <li class="menu-item current-menu-item"><a href='/'>Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href='/contact'>Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="app-container">
+            <div class="container px-3 py-5 text-center">
+                <!--Search Input-->
+                <input type="text" class="w-100 mx-auto rounded-5 py-3 px-4 bg-main-color mb-5 text-white"
+                    placeholder="Find your location..." id="search" />
+                <div class="row g-0">
+    
+    
+                    <div class="item col-md-4 bg-sec-color m-0 rounded-4">
+                        <div class="d-flex justify-content-between py-2 px-3 bg-main-color text-light rounded-start"id="today-date">
+                            <p id="today_name" class="my-auto">Sunday</p>
+                            <span>
+                                <span id="today_number" class="my-auto">30</span>
+                                <span id="today_month" class="my-auto">May</span>
+                            </span>
+                        </div>
+                        <div class="item-content text-start px-3 py-3 pt-5 text-light" id="today">
+                            <p id="today_location" class="fs-4"></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-1 fw-bolder">
+                                    <span id="today_temp"></span>
+                                    <span><sup>o</sup> C</span>
+                                </span>
+                                <img id="today_condition_img" src="images/116.png" alt="" />
+                            </div>
+                            <p id="today_condition_text" class="fs-6 text-light-blue"></p>
+                        </div>
+                        <div class="item-footer d-flex text-light p-3">
+                            <div class="d-flex me-3">
+                                <img src="images/icon-umberella.png" class="footer-icons me-2" alt="" />
+                                <p id="humidity"></p>
+                            </div>
+                            <div class="d-flex me-3">
+                                <img src="images/icon-wind.png" class="footer-icons mx-2" alt="" />
+                                <p id="wind"></p>
+                            </div>
+                            <div class="d-flex">
+                                <img src="images/icon-compass.png" class="footer-icons mx-2" alt="" />
+                                <p id="wind_direction"></p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="item col-md-4 m-0 bg-main-color">
+                        <div class="py-2 text-center bg-sec-color text-light" >
+                            <p class="next_day_name my-auto">Friday</p>
+                        </div>
+                        <div class="item-content text-start text-light p-3 text-center pt-5">
+                            <img class="next_condition_img" src="images/113.png" alt="">
+                            <h3>
+                                <span class="next_max_temp"></span>
+                                <span><sup>o</sup> C</span>
+                            </h3>
+                            <h5 class="text-muted">
+                                <span class="next_min_temp">15</span>
+                                <span><sup>o</sup> C</span>
+                            </h5>
+                            <p class="next_condition_text fs-6 text-light-blue">partly cloudy</p>
+                        </div>
+                    </div>
+    
+    
+                    <div class="item col-md-4 m-0 bg-sec-color rounded-4">
+                        <div class="py-2 text-center px-3 bg-main-color text-light rounded-end">
+                            <p class="next_day_name my-auto">Friday</p>
+                        </div>
+                        <div class="item-content text-start text-light p-3 text-center pt-5">
+                            <img class="next_condition_img" src="images/113.png" alt="">
+                            <h3>
+                                <span class="next_max_temp"></span>
+                                <span><sup>o</sup> C</span>
+                            </h3>
+                            <h5 class="text-muted">
+                                <span class="next_min_temp">15</span>
+                                <span><sup>o</sup> C</span>
+                            </h5>
+                            <p class="next_condition_text fs-6 text-light-blue">partly cloudy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> .site-footer
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <div class="today forecast">
+    <div class="forecast-header" id="today">
+        <div class="day"></div>
+        <div class=" date"></div>
+    </div>
+    <div class="forecast-content" id="current">
+        <div class="location"></div>
+        <div class="degree">
+            <div class="num"><sup></sup></div>
+            <div class="forecast-icon"> <img src="" alt="" width=90></div>
+        </div>
+        <div class="custom"></div>
+        <span><img src="" alt=""></span>
+        <span><img src="" alt=""></span>
+        <span><img src="" alt=""></span>
+    </div>
+</div>
+
+
+
+<div class="forecast">
+    <div class="forecast-header">
+        <div class="day"></div>
+    </div>
+    <div class="forecast-content">
+        <div class="forecast-icon"> <img src="" alt="" width=48></div>
+        <div class="degree"><sup></sup></div>
+        <small><sup></sup></small>
+        <div class="custom"></div>
+    </div>
+</div> -->
